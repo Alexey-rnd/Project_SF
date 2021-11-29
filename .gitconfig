@@ -1,0 +1,18 @@
+[user]
+	name = Alexey Chernov
+	email = a_lex80@inbox.ru
+[core]
+	askpass = 
+	quotePath = false
+	autocrlf = true
+	safecrlf = false
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	history = log --graph
+[http]
+	postBuffer = 1048576000
